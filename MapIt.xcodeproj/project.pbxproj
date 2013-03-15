@@ -18,6 +18,8 @@
 		9A60308516EEF7AB007EEE88 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A60308416EEF7AB007EEE88 /* Default-568h@2x.png */; };
 		9A60308816EEF7AB007EEE88 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A60308616EEF7AB007EEE88 /* MainStoryboard.storyboard */; };
 		9A60308B16EEF7AB007EEE88 /* SCSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A60308A16EEF7AB007EEE88 /* SCSViewController.m */; };
+		9A693D1716F2E362004A164A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A693D1616F2E362004A164A /* MapKit.framework */; };
+		9A693D1916F2E386004A164A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A693D1816F2E386004A164A /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		9A60308716EEF7AB007EEE88 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		9A60308916EEF7AB007EEE88 /* SCSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCSViewController.h; sourceTree = "<group>"; };
 		9A60308A16EEF7AB007EEE88 /* SCSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCSViewController.m; sourceTree = "<group>"; };
+		9A693D1616F2E362004A164A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9A693D1816F2E386004A164A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A693D1916F2E386004A164A /* CoreLocation.framework in Frameworks */,
+				9A693D1716F2E362004A164A /* MapKit.framework in Frameworks */,
 				9A60306F16EEF7AB007EEE88 /* UIKit.framework in Frameworks */,
 				9A60307116EEF7AB007EEE88 /* Foundation.framework in Frameworks */,
 				9A60307316EEF7AB007EEE88 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +62,8 @@
 		9A60306216EEF7AB007EEE88 = {
 			isa = PBXGroup;
 			children = (
+				9A693D1816F2E386004A164A /* CoreLocation.framework */,
+				9A693D1616F2E362004A164A /* MapKit.framework */,
 				9A60307416EEF7AB007EEE88 /* MapIt */,
 				9A60306D16EEF7AB007EEE88 /* Frameworks */,
 				9A60306C16EEF7AB007EEE88 /* Products */,
@@ -299,6 +307,7 @@
 				9A60309016EEF7AB007EEE88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
